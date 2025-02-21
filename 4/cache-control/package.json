@@ -1,0 +1,22 @@
+{
+  "name": "Node-App",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/server/index.ts",
+    "build": "tsc",
+    "start": "yarn build && node dist/server/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.4",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}

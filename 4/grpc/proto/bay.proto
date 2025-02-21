@@ -1,0 +1,17 @@
+syntax="proto3";
+
+package bay;
+
+service Bay {
+    rpc sayBay (BayRequest) returns (BayResponse);
+}
+
+message BayRequest {
+    string name = 1;
+    string time = 2;
+}
+
+message BayResponse {
+    string message = 1;
+    int32 statusCode = 2;
+}
