@@ -6,7 +6,8 @@
   "repository": "https://github.com/devmunira/advanced-backend-III.git",
   "author": "devmunira <fswfofficial@gmail.com>",
   "scripts": {
-    "start-mutex": "nodemon ./5/mutex/index.js"
+    "start-mutex": "nodemon ./5/mutex/index.js",
+    "start-rwmutex": "nodemon ./5/rwmutex/index.js"
   },
   "license": "MIT",
   "dependencies": {
