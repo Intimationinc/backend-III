@@ -7,7 +7,8 @@
   "author": "devmunira <fswfofficial@gmail.com>",
   "scripts": {
     "start-mutex": "nodemon ./5/mutex/index.js",
-    "start-rwmutex": "nodemon ./5/rwmutex/index.js"
+    "start-rwmutex": "nodemon ./5/rwmutex/index.js",
+    "start-semaphore": "nodemon ./5/semaphore/index.js"
   },
   "license": "MIT",
   "dependencies": {
