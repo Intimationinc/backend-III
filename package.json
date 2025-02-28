@@ -1,0 +1,16 @@
+{
+  "name": "backend-III",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/devmunira/advanced-backend-III.git",
+  "author": "devmunira <fswfofficial@gmail.com>",
+  "scripts": {
+    "start-mutex": "nodemon ./5/mutex/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async-mutex": "^0.5.0",
+    "nodemon": "^3.1.9"
+  }
+}
