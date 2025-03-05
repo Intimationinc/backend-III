@@ -8,7 +8,8 @@
   "scripts": {
     "start-mutex": "nodemon ./5/mutex/index.js",
     "start-rwmutex": "nodemon ./5/rwmutex/index.js",
-    "start-semaphore": "nodemon ./5/semaphore/index.js"
+    "start-semaphore": "nodemon ./5/semaphore/index.js",
+    "start-dsa": "nodemon ./5/dsa/index.js"
   },
   "license": "MIT",
   "dependencies": {
