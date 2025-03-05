@@ -1,5 +1,4 @@
 import { SubjectDto } from "../module/subject/subject.dto";
-import { Subject } from "../module/subject/subject.model";
 
 export class SubjectCache {
   private subjects: Map<string, SubjectDto> = new Map();
@@ -13,6 +12,6 @@ export class SubjectCache {
   }
 
   getAll() {
-    return this.subjects;
+    return this.subjects.values();
   }
 }

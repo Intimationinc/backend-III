@@ -1,4 +1,5 @@
 import { SubjectCache } from "./Cache/subject.cache";
+import { ExamService } from "./module/exam/exam.service";
 import { SubjectFactory } from "./module/subject/subject.factory";
 import { SubjectService } from "./module/subject/subject.service";
 
@@ -17,6 +18,9 @@ const subject2 = subjectService.createService({
   questions: ["Question 1", "Question 2"],
 });
 
+const exam = new ExamService(subjectService);
+
 console.log({
   getAll: subjectService.getAllSubject(),
+  exam: exam.getSubjectQuestion("English"),
 });

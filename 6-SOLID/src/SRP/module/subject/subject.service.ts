@@ -1,9 +1,12 @@
 import { SubjectFactory } from "./subject.factory";
 import { SubjectCache } from "../../Cache/subject.cache";
-import { createSubjectDto, SubjectDto } from "./subject.dto";
-import { Subject } from "./subject.model";
+import {
+  createSubjectDto,
+  ISubjectServiceInterface,
+  SubjectDto,
+} from "./subject.dto";
 
-export class SubjectService {
+export class SubjectService implements ISubjectServiceInterface {
   private subjectCache: SubjectCache;
   private subjectFactory: SubjectFactory;
 
